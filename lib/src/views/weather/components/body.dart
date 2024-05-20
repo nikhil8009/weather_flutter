@@ -16,6 +16,7 @@ class Body extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         actions: [
+          //Action button to navigate to settings screen
           IconButton(
             icon: const Icon(Icons.settings),
             onPressed: () {
